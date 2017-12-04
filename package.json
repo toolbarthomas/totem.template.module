@@ -1,0 +1,26 @@
+{
+  "name": "totem.template.module",
+  "version": "0.1.0",
+  "description": "Template package for displaying modules in a single view",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolbarthomas/totem.template.module.git"
+  },
+  "keywords": [
+    "totem",
+    "template",
+    "totem-template"
+  ],
+  "author": "Thomas van der Velde <contact@toolbarthomas.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toolbarthomas/totem.template.module/issues"
+  },
+  "homepage": "https://github.com/toolbarthomas/totem.template.module#readme",
+  "dependencies": {
+    "totem.module.svgsprite": "^0.5.0"
+  }
+}

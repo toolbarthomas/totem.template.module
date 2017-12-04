@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+        <title>{{ page.title is defined ? page.title : 'Module example' }}</title>
+
+
+        <link href="/resources/main/stylesheets/main.css" rel="stylesheet" type="text/css">
+
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <div class="module-viewer">
+            <div class="module-viewer-wrapper">
+                {% block module %}
+                    Module has not been defined.
+                {% endblock %}
+            </div>
+        </div>
+
+        {% include 'totem_submodules::totem.module.svgsprite/partials/svg-sprite-injector.twig' %}
+
+        {% block foot %}{% endblock %}
+    </body>
+</html>
